@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
       <div className="flex items-center">
         <img 
           src="/lovable-uploads/9cee009a-cdcc-4616-b015-51391d051468.png" 
-          alt="Sophia Chen Logo" 
+          alt="Mais Sarhan Logo" 
           className="h-10 w-auto mr-2" 
         />
         <span className="font-bold text-xl">TechPortfolio</span>
