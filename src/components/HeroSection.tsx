@@ -14,7 +14,7 @@ const HeroSection: React.FC = () => {
       <div className="container mx-auto z-10 animate-fade-in">
         <p className="text-tech-purple font-medium mb-3">Hi there, I'm</p>
         <h1 className="text-4xl md:text-6xl font-bold mb-6">
-          <span className="gradient-text">Sophia Chen</span>
+          <span className="gradient-text">Mais Sarhan</span>
         </h1>
         <h2 className="text-2xl md:text-3xl font-medium text-gray-700 mb-6">
           Computer Systems Engineer
