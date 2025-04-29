@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
-import { Code, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,7 +9,11 @@ const Navbar: React.FC = () => {
   return (
     <nav className="py-4 px-6 md:px-12 flex justify-between items-center bg-white/80 backdrop-blur-md sticky top-0 z-50 shadow-sm">
       <div className="flex items-center">
-        <Code className="h-6 w-6 text-tech-purple mr-2" />
+        <img 
+          src="/lovable-uploads/9cee009a-cdcc-4616-b015-51391d051468.png" 
+          alt="Sophia Chen Logo" 
+          className="h-10 w-auto mr-2" 
+        />
         <span className="font-bold text-xl">TechPortfolio</span>
       </div>
       
