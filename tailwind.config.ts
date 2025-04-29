@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				tech: {
+					purple: '#7E69AB',
+					teal: '#38B2AC',
+					lilac: '#D6BCFA',
+					dark: '#1A1F2C',
+					light: '#F1F0FB'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,13 +92,49 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'fade-out': {
+					'0%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					},
+					'100%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					}
+				},
+				'circuit-flow': {
+					'0%': {
+						strokeDashoffset: '1000'
+					},
+					'100%': {
+						strokeDashoffset: '0'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out',
+				'fade-in-slow': 'fade-in 1s ease-out',
+				'circuit-flow': 'circuit-flow 3s ease-in-out forwards',
+			},
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
+				'roboto': ['Roboto', 'sans-serif']
 			}
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
