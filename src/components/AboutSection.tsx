@@ -18,7 +18,7 @@ const AboutSection: React.FC = () => {
               {/* This is where an actual photo would be placed */}
               <div className="absolute inset-0 flex items-center justify-center">
                 <p className="text-white text-lg font-medium"><img src="https://github.com/MaisSerhan/MaisSarhan/blob/main/static/photo/image.png?raw=true" height="70vh" 
-                width: "31vh">Profile Photo</p>
+                width= "31vh">Profile Photo</p>
               </div>
               {/* Decorative elements */}
               <div className="absolute top-4 left-4 w-12 h-12 border-l-2 border-t-2 border-white/50"></div>
