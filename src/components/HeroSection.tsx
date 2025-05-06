@@ -27,10 +27,14 @@ const HeroSection: React.FC = () => {
         
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Button className="bg-tech-purple hover:bg-tech-purple/90 text-white px-8 py-6">
-            View Projects
+             <a href="https://stellar-coder-portfolio-glow.lovable.app/?#projects" className="text-gray-600 hover:text-tech-purple transition-colors">
+               View Projects
+              </a>
           </Button>
           <Button variant="outline" className="border-tech-teal text-tech-teal hover:bg-tech-teal/10 px-8 py-6">
-            Contact Me
+            <a href="https://stellar-coder-portfolio-glow.lovable.app/?#contact" className="text-gray-600 hover:text-tech-purple transition-colors">
+               Contact Me     
+            </a>
           </Button>
         </div>
       </div>
