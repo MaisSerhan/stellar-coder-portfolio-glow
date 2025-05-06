@@ -16,28 +16,29 @@ type Project = {
 const ProjectsSection: React.FC = () => {
   const projects: Project[] = [
     {
-      title: "Embedded Smart Home System",
-      description: "Designed and implemented a comprehensive IoT-based smart home system featuring real-time monitoring and control of household devices with low power consumption.",
-      image: "/placeholder.svg",
-      technologies: ["ARM Microcontroller", "C", "IoT Protocols", "PCB Design"],
-      githubUrl: "#",
-      liveUrl: "#"
-    },
-    {
-      title: "Network Traffic Analyzer",
-      description: "Developed a high-performance network traffic analysis tool that processes packet data in real-time to detect anomalies and potential security threats.",
-      image: "/placeholder.svg",
-      technologies: ["Python", "Wireshark API", "Machine Learning", "TCP/IP"],
-      githubUrl: "#"
-    },
-    {
-      title: "FPGA-based Video Processing",
-      description: "Created a real-time video processing system on FPGA that implements advanced filters and computer vision algorithms with minimal latency.",
-      image: "/placeholder.svg",
-      technologies: ["VHDL", "Image Processing", "FPGA", "Computer Vision"],
-      githubUrl: "#",
-      liveUrl: "#"
+      title: "GiGi-boutique for Real Client",
+      description: "Developed a boutique website for a real client using HTML, CSS, JavaScript, and a NoSQL database. The platform enables seamless product management and dynamic content display.",
+      image: "https://github.com/MaisSerhan/MaisSarhan/blob/main/static/photo/gigibou.png", // Ensure this path matches your project setup
+      technologies: ["HTML", "CSS", "JavaScript", "NoSQL"],
+      githubUrl: "https://github.com/MaisSerhan/GiGi-Boutique", // Replace if needed
+      liveUrl: "https://gigi-boutque.vercel.app/"
     }
+    {
+      title: "Natural Language Processing in Udacity Project",
+      description: "This Udacity project allows users to input an article URL for analysis using Natural Language Processing. Built with Node.js, Webpack, JavaScript, HTML, and SCSS, it handles both client and server side seamlessly.",
+      image: "https://github.com/MaisSerhan/MaisSarhan/blob/main/static/photo/artical.png?", // Ensure this image path is correct relative to your project
+      technologies: ["Node.js", "Webpack", "JavaScript", "HTML", "SCSS"],
+      githubUrl: "https://github.com/MaisSerhan/Natural-Language-Processing-in-Udacity"
+    }
+
+    {
+      title: "AI Project",
+      description: "AI project using machine learning to predict PPV values. Implemented XGBoost linear regression using Python.",
+      image: "https://media.geeksforgeeks.org/wp-content/uploads/20231129130431/11111111.png",
+      technologies: ["Python", "XGBoost", "Machine Learning", "Linear Regression"],
+      githubUrl: "https://github.com/MaisSerhan/AIProject"
+    }
+
   ];
 
   return (
