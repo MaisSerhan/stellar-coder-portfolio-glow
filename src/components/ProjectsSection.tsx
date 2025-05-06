@@ -27,7 +27,7 @@ const ProjectsSection: React.FC = () => {
       title: "Weather App Project in Udacity Project",
       description:
         "This Udacity project Weather app is a project in udacity with node js to create a code. Built with Node.js, Webpack, JavaScript, HTML, and SCSS, it handles both client and server side seamlessly.",
-      image: "https://github.com/MaisSerhan/MaisSarhan/blob/main/static/photo/weather.png?",
+      image: "https://github.com/MaisSerhan/MaisSarhan/blob/main/static/photo/weather.png",
       technologies: ["Node.js", "Webpack", "JavaScript", "HTML", "SCSS" ,"API"],
       githubUrl: "https://github.com/MaisSerhan/WeatherApp"
     },
