@@ -29,20 +29,8 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">Email</h4>
-                  <a href="mailto:sophia@example.com" className="text-gray-600 hover:text-tech-purple transition-colors">
-                    sophia@example.com
-                  </a>
-                </div>
-              </div>
-              
-              <div className="flex items-start gap-4">
-                <div className="bg-tech-purple/10 p-3 rounded-full">
-                  <Phone className="h-5 w-5 text-tech-purple" />
-                </div>
-                <div>
-                  <h4 className="font-medium">Phone</h4>
-                  <a href="tel:+15551234567" className="text-gray-600 hover:text-tech-purple transition-colors">
-                    +1 (555) 123-4567
+                  <a href="mailto:maisserhan09@gmail.com" className="text-gray-600 hover:text-tech-purple transition-colors">
+                    maisserhan09@gmail.com
                   </a>
                 </div>
               </div>
@@ -53,8 +41,8 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">GitHub</h4>
-                  <a href="#" className="text-gray-600 hover:text-tech-purple transition-colors">
-                    github.com/sophiachen
+                  <a href="https://github.com/MaisSerhan" className="text-gray-600 hover:text-tech-purple transition-colors">
+                    github.com/MaisSerhan
                   </a>
                 </div>
               </div>
@@ -65,8 +53,8 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-medium">LinkedIn</h4>
-                  <a href="#" className="text-gray-600 hover:text-tech-purple transition-colors">
-                    linkedin.com/in/sophiachen
+                  <a href="https://www.linkedin.com/in/mais-anwer/" className="text-gray-600 hover:text-tech-purple transition-colors">
+                    ‏Mais Sarhan‏
                   </a>
                 </div>
               </div>
