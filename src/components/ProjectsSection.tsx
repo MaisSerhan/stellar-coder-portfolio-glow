@@ -24,12 +24,12 @@ const ProjectsSection: React.FC = () => {
       liveUrl: "https://gigi-boutque.vercel.app/"
     },
     {
-      title: "Natural Language Processing in Udacity Project",
+      title: "Weather App Project in Udacity Project",
       description:
-        "This Udacity project allows users to input an article URL for analysis using Natural Language Processing. Built with Node.js, Webpack, JavaScript, HTML, and SCSS, it handles both client and server side seamlessly.",
-      image: "https://raw.githubusercontent.com/MaisSerhan/MaisSarhan/main/static/photo/artical.png",
-      technologies: ["Node.js", "Webpack", "JavaScript", "HTML", "SCSS"],
-      githubUrl: "https://github.com/MaisSerhan/Natural-Language-Processing-in-Udacity"
+        "This Udacity project Weather app is a project in udacity with node js to create a code. Built with Node.js, Webpack, JavaScript, HTML, and SCSS, it handles both client and server side seamlessly.",
+      image: "https://github.com/MaisSerhan/MaisSarhan/blob/main/static/photo/weather.png?",
+      technologies: ["Node.js", "Webpack", "JavaScript", "HTML", "SCSS" ,"API"],
+      githubUrl: "https://github.com/MaisSerhan/WeatherApp"
     },
     {
       title: "AI Project",
